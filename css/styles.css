@@ -37,6 +37,12 @@ header img {
 	height: 60px; /*size down logo image*/
 	float: right;
 	opacity: 0.7;
+	/*Smooth opacity transition over 0.2sec*/
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;  
 }
 
 header img:hover {
@@ -47,6 +53,12 @@ figure {
 	display: inline-block;
 	padding: 10px;
 	background-color: #FFF;
+	/*Smooth hover-zoom transition over 0.2sec*/
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;  
 }
 
 figcaption {
