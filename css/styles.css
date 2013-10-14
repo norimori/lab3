@@ -11,10 +11,11 @@ body {
 }
 
 article {
-	width: 90%;
+	width: 90%; /*of body*/
 	background-color: white;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: 'Open Sans', sans-serif;
 }
