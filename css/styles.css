@@ -12,7 +12,7 @@ body {
 
 article {
 	width: 90%; /*of body*/
-	background-color: white;
+	background-color: #FFF;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: auto;
@@ -41,4 +41,22 @@ header img {
 
 header img:hover {
 	opacity: 1;
+}
+
+figure {
+	display: inline-block;
+	padding: 10px;
+	background-color: #FFF;
+}
+
+figcaption {
+	font-weight: 300; /*Normal weight is 400*/
+	text-align: center; /*horizontally center text*/
+	margin-top: 5px;
+}
+
+figure img {
+	width: 200px;
+	border: 10px solid #EEE; /*thickness, type, color*/
+	border-radius: 2px;
 }
