@@ -19,3 +19,25 @@ article {
 	margin-right: auto;
 	font-family: 'Open Sans', sans-serif;
 }
+
+header {
+	background-color: #907A46;
+	padding: 10px;
+}
+
+header h1 {
+	/*font-family: 'Cantora One'*/
+	font-size: 200%;
+	color: #EEEDEA;
+	line-height: 60px; /*vertically center text*/
+}
+
+header img {
+	height: 60px; /*size down logo image*/
+	float: right;
+	opacity: 0.7;
+}
+
+header img:hover {
+	opacity: 1;
+}
